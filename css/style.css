@@ -1,0 +1,148 @@
+@charset "utf-8";
+/*
+Author: LIQUID DESIGN Ltd.
+Author URI: https://lqd.jp/wp/
+*/
+.liquid_seo {
+    box-sizing: border-box;
+    font-family: sans-serif;
+    position: fixed;
+    z-index: 9999;
+    bottom: 0;
+    right: 0;
+    background: #1d2327;
+    margin: 0;
+    padding: 10px;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #fff;
+    border-left: 1px solid #494c50;
+    width: 320px;
+    height: 100%;
+    overflow-y: scroll;
+    text-align: left;
+}
+.liquid_seo.liquid_seo_underbar {
+    padding-top: 42px;
+}
+.liquid_seo a, .liquid_seo a:visited {
+    color: #999;
+    text-decoration: none;
+}
+.liquid_seo a:hover, .liquid_seo a:focus, .liquid_seo a:active {
+    color: #fff;
+}
+.liquid_seo .lsilt {
+    display: inline-block;
+    margin-left: 20px;
+    font-size: 10px;
+    vertical-align: baseline;
+}
+.liquid_seo table {
+    width: 100%;
+    margin: 0;
+    table-layout: fixed;
+    border: 0 none;
+    border-spacing: 0;
+}
+.liquid_seo th, .liquid_seo td {
+    display: block;
+    border: 0 none;
+    padding: 7px;
+    text-align: left;
+    overflow-wrap : break-word;
+}
+.liquid_seo th {
+    background-color: #000;
+    border-radius: 5px;
+    color: #999;
+}
+.liquid_seo td img {
+    width: 100px;
+    height: auto;
+}
+.liquid_seo tr.lsit th {
+    font-size: 16px;
+    margin: 0 -10px 10px -10px;
+    padding-left: 17px;
+    border-radius: 0;
+}
+.liquid_seo .lsired, .liquid_seo .lsired+td {
+    color: #ff0000;
+    font-weight: bold;
+}
+.liquid_seo td pre {
+    font-size: 90%;
+    color: #fff;
+    margin: 0;
+    overflow: auto;
+}
+.liquid_seo > small {
+    display: block;
+    font-size: 8px;
+    text-align: right;
+    margin-top: 20px;
+}
+.liquid_seo em {
+    font-style: normal;
+    font-size: 12px;
+    background: #000;
+    color: #fff;
+    padding: 2px 5px;
+    margin-right: 5px;
+    border-radius: 5px;
+    display: inline-block;
+    vertical-align: baseline;
+    font-weight: bold;
+}
+.liquid_seo .lsired em {
+    background: #ff0000;
+}
+.liquid_seo i {
+    font-style: normal;
+    cursor: pointer;
+    float: right;
+    display: block;
+    line-height: 1;
+    width: 20px;
+    height: 20px;
+    background: transparent url(data:image/svg+xml;base64,PHN2ZyBpZD0i44Os44Kk44Ok44O8XzEiIGRhdGEtbmFtZT0i44Os44Kk44Ok44O8IDEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmlld0JveD0iMCAwIDQ5LjIgMzAuNCI+PGRlZnM+PHN0eWxlPi5jbHMtMXtmaWxsOiNmZmY7fTwvc3R5bGU+PC9kZWZzPjxwb2x5Z29uIGNsYXNzPSJjbHMtMSIgcG9pbnRzPSI0NS41IDAgNDkuMiAzLjM3IDI0LjYgMzAuNCAwIDMuMzcgMy42OSAwIDI0LjYgMjIuOTcgNDUuNSAwIi8+PC9zdmc+) center center no-repeat;
+    background-size: 100%;
+}
+.liquid_seo_close {
+    height: auto;
+}
+.liquid_seo_close.liquid_seo_underbar {
+    padding-top: 10px;
+}
+.liquid_seo_close i {
+    transform: scale(1, -1);
+}
+.liquid_seo_close .lsitab,
+.liquid_seo_close table,
+.liquid_seo_close > small {
+    display: none;
+}
+.liquid_seo .lsitab {
+    margin: 10px 0 0 0;
+}
+.liquid_seo .lsitab a {
+    display: inline-block;
+    cursor: pointer;
+    color: #999;
+    font-size: 10px;
+    padding: 5px;
+    margin: 0;
+    background: transparent;
+}
+.liquid_seo .lsitab a.lsiact {
+    background: #000;
+}
+.liquid_seo .lsi02,
+.liquid_seo .lsi03,
+.liquid_seo .lsi04,
+.liquid_seo .lsi05,
+.liquid_seo .lsi06,
+.liquid_seo .lsi07 {
+    display: none;
+}
